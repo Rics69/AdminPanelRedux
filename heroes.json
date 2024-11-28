@@ -1,12 +1,6 @@
 {
   "heroes": [
     {
-      "id": 1,
-      "name": "Первый герой",
-      "description": "Первый герой в рейтинге!",
-      "element": "fire"
-    },
-    {
       "id": 2,
       "name": "Неизвестный герой",
       "description": "Скрывающийся в тени",
@@ -19,17 +13,49 @@
       "element": "water"
     },
     {
-      "id": "fd2e3346-316d-435d-830e-7e2ad2696811",
-      "name": "Данил",
-      "description": "Зря вы меня удалили",
+      "id": "053769c1-66ce-4a1e-8c55-c4322c7f5850",
+      "name": "Danil",
+      "description": "dsadas",
+      "element": "fire"
+    },
+    {
+      "id": "2637afda-5d6c-44f1-b627-898cc4452266",
+      "name": "ddfd",
+      "description": "fdasdfdsf",
       "element": "water"
+    },
+    {
+      "id": "fdb25186-3bd8-447a-ba2d-312685d58d71",
+      "name": "dasc",
+      "description": "dsadaf",
+      "element": "earth"
     }
   ],
   "filters": [
-    "all",
-    "fire",
-    "water",
-    "wind",
-    "earth"
+    {
+      "name": "all",
+      "label": "Все",
+      "className": "btn-outline-dark"
+    },
+    {
+      "name": "fire",
+      "label": "Огонь",
+      "className": "btn-danger"
+    },
+    {
+      "name": "water",
+      "label": "Вода",
+      "className": "btn-primary"
+    },
+    {
+      "name": "wind",
+      "label": "Ветер",
+      "className": "btn-success"
+    },
+    {
+      "name": "earth",
+      "label": "Земля",
+      "className": "btn-secondary"
+    }
   ]
 }
